@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <TextView
-        android:id="@+id/wows"
+        android:id="@+id/months"
         android:layout_width="124dp"
         android:layout_height="48dp"
         android:layout_marginTop="40dp"
@@ -116,7 +116,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/dys"
-        app:layout_constraintTop_toBottomOf="@+id/wows" />
+        app:layout_constraintTop_toBottomOf="@+id/months" />
 
     <TextView
         android:id="@+id/hours"

@@ -59,13 +59,13 @@ class MainActivity : AppCompatActivity() {
                 var agesecs=agehrs*3600
                 var years=findViewById<TextView>(R.id.years)
                 years.text="You are $agey years $agem months $aged days old"
-                var months=findViewById<TextView>(R.id.seconds)
+                var months=findViewById<TextView>(R.id.months)
                 months.text="$agemon months old"
-                var days=findViewById<TextView>(R.id.hours)
+                var days=findViewById<TextView>(R.id.days)
                 days.text="$agedays days old"
-                var hours=findViewById<TextView>(R.id.days)
+                var hours=findViewById<TextView>(R.id.hours)
                 hours.text="$agehrs hours old"
-                var seconds=findViewById<TextView>(R.id.wows)
+                var seconds=findViewById<TextView>(R.id.seconds)
                 seconds.text="$agesecs secs old"
             }, year, month, day).show()
         }
